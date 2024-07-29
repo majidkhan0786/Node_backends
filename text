@@ -1,0 +1,25 @@
+Node.js is an open-source, cross-platform runtime environment that allows developers to run JavaScript code on the server side. Here are some key features and concepts:
+
+Key Features:
+Asynchronous and Event-Driven: Node.js uses an event-driven, non-blocking I/O model, making it efficient and suitable for real-time applications.
+Single-Threaded: It operates on a single-threaded event loop, which can handle multiple connections concurrently.
+V8 Engine: Node.js uses Google’s V8 JavaScript engine to execute code, ensuring fast execution.
+Package Manager (npm): Node.js comes with npm (Node Package Manager), which is the largest ecosystem of open-source libraries and packages.
+
+Core Concepts:
+Event Loop: The event loop is the mechanism that handles asynchronous callbacks. Node.js performs I/O operations asynchronously and then executes the callback function once the operation is completed.
+Non-Blocking I/O: Node.js can handle many operations simultaneously without waiting for any of them to complete. This makes it highly scalable.
+Modules: Node.js has a module system for importing and exporting functions, objects, or values from one file to another. CommonJS is the default module system in Node.js.
+
+Common Use Cases:
+Web Servers: Node.js is often used to create web servers due to its ability to handle multiple requests efficiently.
+APIs: It's widely used to develop RESTful APIs and backend services.
+Real-Time Applications: Ideal for real-time applications like chat applications, live streaming, and online gaming.
+Microservices: Node.js is suitable for building microservices architectures due to its lightweight nature and scalability.
+
+=> Global Modules
+we don't need to import this Module in the file example console.log(), **fileName, dirname, **dirname
+Core Modules => we have import this module like fs (File system ,buffer and Many more)
+
+=> we can handle server requests and responses using the https module to create a secure server over HTTPS.
+command => npm init to initialise the package.json file
